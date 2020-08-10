@@ -1,0 +1,207 @@
+
+/* css geral */
+*{
+    box-sizing: border-box;
+        
+}
+
+body {
+    font-family: 'DM Mono', sans-serif; 
+    margin: 0;
+    
+}
+
+h1 {   
+font-family: 'Turret Road', monospace;
+font-size: 30pt;
+padding: 10px 30px 30px 20px;
+
+}
+
+
+
+h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: steelblue;
+}
+  
+
+/* HEADER*/
+
+
+header{ 
+    background-image: url("/img/banner-bg.jpg");
+    height: 100vh;
+    background-size: cover;
+    display: flex;   
+    background-attachment: fixed;
+    
+}
+
+
+
+.header-info h1{
+   text-align: center; 
+   background: #fff; 
+   color: #1E90FF;
+   padding: 0rem 0rem 0rem 3rem;
+}
+
+.header-info h1:hover{
+    background-color: steelblue;
+        color: #fff
+
+}
+
+
+
+header a{
+    font-size: 20px;
+    text-decoration: none;     
+    cursor: pointer; 
+    color: #fff;
+    margin: 0;
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+
+   
+    
+}
+
+header a:hover{
+    
+    text-decoration-line: underline;
+    color: lightslategrey;
+    cursor: pointer; 
+    border: 4px;
+    font-weight: bold;
+    background-color: #fff;
+    
+}
+
+
+.sobre, .redes{
+    max-width: 80vw;
+    margin: auto;
+    height: 60vh;
+    
+}
+
+.sobre-mim, .redes-sociais{
+    display: flex;
+}
+
+
+.sobre-mim_info {
+    width: 70vw;
+    text-align: justify;
+    font-size: 17px;
+}
+
+.sobre-mim_habilidades{
+width: 30vw;
+margin-left: 2rem;
+
+}
+
+.sobre-mim_habilidades ul{
+    list-style-type: circle;
+    }
+
+.sobre-mim_info a{
+    
+    background: #1E90FF;
+    padding: 0.5rem 1rem;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 15px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.sobre-mim_info a:hover{
+    
+    color: steelblue;
+    text-decoration: none;
+    border-style: double;
+    background-color: white;
+
+}
+
+/*--------redes sociais---------------*/
+.redes{
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    height: 25vh;
+}
+
+ 
+.redes-sociais p{
+color: #fff;
+}
+
+.redes-sociais p:hover{
+ color:steelblue;
+ }
+
+
+.redes-sociais a {
+    text-decoration: none;
+}
+
+.redes-sociais{
+    justify-content: space-between;
+}
+
+.redes-sociais_facebook,
+.redes-sociais_instagram,
+.redes-sociais_linkedin,
+.redes-sociais_github{
+
+background: rgb(136,190,222);
+background: radial-gradient(circle, rgba(136,190,222,1) 0%, rgba(96,151,237,1) 100%);
+text-align: center;
+padding: 1rem 3rem;
+}
+
+
+
+.redes-sociais img {
+    max-width: 3rem;
+    max-height: 3rem;
+    
+
+}
+
+
+
+.redes-sociais img:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+
+/*---------Footer-------*/
+
+
+footer{
+    background-color: #1E90FF;
+     padding: 1rem;
+    text-align: center;
+    color: #fff;
+}
+footer a{
+color: #fff;
+}
+
+#frase{
+ padding:20px;
+ text-align:center;
+ color: #ffffff;
+}
